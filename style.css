@@ -20,6 +20,20 @@
 
 }
 
+/* Default link color */
+.navbar-nav .nav-link {
+  color: #333; /* Change to your desired default color */
+  text-align: center;
+}
+
+/* Style for active link */
+.navbar-nav .nav-link.active {
+  background-color: lightgreen; /* Change to your desired background color */
+  color: #000; /* Change to your desired text color */
+  /* Add other styling as needed */
+}
+
+
 /* Set the smaller images to fill the viewport height and width */
 .w-100-height {
     height: 50vh;
