@@ -12,16 +12,6 @@
 	<!-- boostrap link-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8SSQCCY5L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Q8SSQCCY5L');
-</script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -108,7 +98,7 @@
 </div>
 
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-2"> <!-- Changed row-cols-lg-3 to row-cols-lg-4 -->
+     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-2"> 
         <div class="col">
           <div class="card border-0 rounded-0">
              <a href="https://www.ss.com/msg/lv/real-estate/flats/riga/teika/afdhc.html" target="_blank">
@@ -156,7 +146,7 @@
         </div>
       </div>
 
- <div class="col">
+  <div class="col">
           <div class="card border-0 rounded-0">
              <a href="https://www.ss.com/msg/lv/real-estate/flats/riga/dzeguzhkalns/benjdc.html" target="_blank">
                <img src="https://i.ss.com/gallery/6/1120/279842/flats-riga-dzeguzhkalns-55968370.800.jpg" class="card-img-top rounded-0" alt="image1"> </a>     
@@ -173,7 +163,7 @@
           </div>
         </div>
 
-	    
+
     </div>
   </section>
 
@@ -249,7 +239,7 @@
            </div>
         </div>
 
-        <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top: 20px;">
+        <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top:10px;">
           <div class="about-text">
             <h2>Lorem ipsum dolor sit amet</h2>
              <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet commodo nulla facilisi nullam vehicula ipsum. Sed elementum tempus egestas sed sed risus pretium. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Volutpat diam ut venenatis tellus in metus vulputate eu. In fermentum et sollicitudin ac. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Amet facilisis magna etiam tempor orci eu lobortis elementum. Quam id leo in vitae turpis. Rhoncus urna neque viverra justo nec ultrices. Tortor at risus viverra adipiscing at in tellus integer feugiat. Posuere morbi leo urna molestie at elementum eu.</p>
@@ -292,6 +282,27 @@
         </div>
     </div>
 </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Get the current page's URL
+  var currentPage = window.location.href;
+
+  // Loop through the navigation links
+  $('.navbar-nav .nav-link').each(function() {
+    var linkHref = $(this).attr('href');
+    
+    // Check if the link's href matches the current page's URL
+    if (currentPage.indexOf(linkHref) > -1) {
+      // Add a class to highlight the active link
+      $(this).addClass('active');
+    }
+  });
+});
+</script>
 
 
 
