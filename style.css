@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Neucha&family=Roboto&family=Roboto+Mono&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar a{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar-toggle{
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: white;
+
+}
+
+/* Set the smaller images to fill the viewport height and width */
+.w-100-height {
+    height: 50vh;
+    width: 100%;
+}
+
+/* Define a minimum height for carousel items to ensure proper spacing */
+.carousel-item {
+    min-height: 100px;
+}
+
+
+.arrow-icon{
+  font-size: 28px;
+}
+
+/*
+.section-padding{
+  padding: 20px 0;
+}
+*/
+
+.bg-footer {
+    background-color: #000;
+    color: #fff; /* Set text color */
+    padding: 50px 0;
+}
+
+/* Style for the address information */
+.address-info {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.address-info li {
+    margin-bottom: 5px; /* Spacing between each piece of information */
+    color: #fff; /* Set text color */
+    font-size: 14px; /* Set font size */
+}
+
+.address-info i {
+    margin-right: 5px; /* Add space between icon and text */
+    color: #fff; /* Set icon color */
+}
+
+.address-info a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color */
+}
+
+
+
+
+ /* Contact Form Styles */
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+   padding: 10px;
+}
+
+.contact-form .btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form .btn:hover {
+   background-color: #555;
+}
+
+
+ .about-text {
+                margin-top: 20px;
+                text-align: center; /* Center text in the services section */
+            }
+
+
+
+
+
+
+
+
+
+
+

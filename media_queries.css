@@ -1,0 +1,125 @@
+/* Default styles (no media query) - for X-Small devices */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Add your styles for small devices here */
+    .navbar-nav {
+        text-align: center; /* Center navigation links */
+    }
+
+              /* Center-align text within .bg-footer */
+  .bg-footer {
+    text-align: center;
+    
+  }
+
+  /* Center-align text within .bg-footer's child anchor elements */
+  .bg-footer a {
+    display: inline-block; /* Ensures center alignment for inline elements */
+  }
+
+    /* Carousel images for smaller screens */
+    .carousel-item img.w-100-height {
+        height: auto; /* Auto height for smaller screens */
+    }
+
+    /* Minimum height for carousel items for smaller screens */
+    .carousel-item {
+        min-height: 200px; /* Adjust as needed */
+    }
+
+    /* Services section text alignment for smaller screens */
+    .about-text {
+        padding-top: 20px;
+        text-align: center; /* Center text in the services section */
+
+    }
+
+     /* Services section images for smaller screens */
+    .about-img img {
+        max-width: 40%; /* Reduce image width for smaller screens */
+    }
+
+
+
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+     .navbar-nav {
+        text-align: center; /* Center navigation links */
+         }
+
+        /* Center-align text within .bg-footer */
+          .bg-footer {
+            text-align: center important;
+          }
+
+          /* Center-align text within .bg-footer's child anchor elements */
+          .bg-footer a {
+            display: inline-block; /* Ensures center alignment for inline elements */
+           
+          }
+
+            /* Carousel images for smaller screens */
+            .carousel-item img.w-100-height {
+                height: auto; /* Auto height for smaller screens */
+            }
+
+            /* Minimum height for carousel items for smaller screens */
+            .carousel-item {
+                min-height: 200px; /* Adjust as needed */
+            }
+
+            /* Services section text alignment for smaller screens */
+            .about-text {
+                margin-top: 20px;
+                text-align: center; /* Center text in the services section */
+            }
+
+             /* Services section images for smaller screens */
+            .about-img img {
+                max-width: 70%; /* Reduce image width for smaller screens */
+            }
+
+           
+        
+
+}
+
+           
+
+
+
+/* Larger screens (992px and up) */
+@media (min-width: 992px) {
+    /* Common styles for larger screens */
+    .navbar-nav {
+        font-size: 18px; /* Increase font size for larger screens */
+        /* Add other common styles here */
+    }
+
+    /* X-Large devices (1200px and up) */
+    @media (min-width: 1200px) {
+        /* Styles for X-Large devices */
+        .navbar-nav {
+            font-size: 20px; /* Increase font size for X-Large screens */
+            /* Add more styles as needed */
+        }
+    }
+
+    /* XX-Large devices (1400px and up) */
+    @media (min-width: 1400px) {
+        /* Styles for XX-Large devices */
+        .navbar-nav {
+            font-size: 22px; /* Increase font size for XX-Large screens */
+            /* Add more styles as needed */
+        }
+    }
+    .about-us-text{
+        padding: 5px 0;
+    }
+
+
+}
